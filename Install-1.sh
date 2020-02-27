@@ -4,6 +4,7 @@ read -p "Are you already installed F-SECURE? If YES press [ENTER]"
 read -p "Are you Sure? If YES press [ENTER]"
 echo
 echo "Will be Installed:"
+echo "=================="
 echo
 echo "Homebrew"
 echo "iTerm2 (brew)"
