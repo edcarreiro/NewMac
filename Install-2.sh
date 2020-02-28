@@ -109,9 +109,6 @@ sleep 5s
 brew cask install parallels
 echo
 echo
-brew cask install cardhop
-echo
-echo
 brew cask install google-chrome
 echo
 echo
