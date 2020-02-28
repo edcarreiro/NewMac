@@ -11,7 +11,7 @@ echo "iTerm2 (brew)"
 echo "Brew mas and Amphetamina (mas)"
 echo "Brew cask fonts and Fira Code Font (brew fonts)"
 echo "OH-MY-ZSH"
-echo "Powelevel10k (paste command in OH-MY-ZSH shell"
+echo "Powerlevel10k (paste command in OH-MY-ZSH shell"
 echo "Configure .ZSHRC file"
 echo
 echo

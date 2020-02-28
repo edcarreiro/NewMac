@@ -4,47 +4,28 @@ echo "Are you already installed OH-MY-ZSH and PowerLevel10k?"
 read -p "If YES press [ENTER]"
 read -p "Are they working corretly? If YES press [ENTER]"
 clear
-echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<  CONFIG .zshrc file! >>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo
-sleep 5s 
+echo ">>>>>>>>> Installing Microsoft Office "
 echo
-echo "####### CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO #######" >> ~/.zshrc
-echo "alias ls=\"ls -la -Gh\"" >> ~/.zshrc
-echo "alias cd..=\"cd ..\"" >> ~/.zshrc
-echo "alias delds=\"sh /Users/eduardo/Projects/CleanMAC.sh\"" >> ~/.zshrc
-echo "alias frs10=\"flutter run -d RQ8M60ER93N\"" >> ~/.zshrc
-echo "alias fcreate=\"flutter create --androidx -t app\"" >> ~/.zshrc
-echo "alias gitpf=\"git push -f origin master\"" >> ~/.zshrc
-echo "alias backpz=\"sh ~/projetos/PlexZSHRCBackup.sh\"" >> ~/.zshrc
-echo "### END OF CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO ###" >> ~/.zshrc
-echo
-echo "<<<<<<<<<<<<<<<<<<<<<<<< FINISHED CONFIG .ZSHRC FILE >>>>>>>>>>>>>>>>>>>>>>>>>"
-echo
-echo
-echo
-echo "<<<<<<<<<<<<<<<<<<<<<<<<< Installing App Ask Password >>>>>>>>>>>>>>>>>>>>>>>>"
-echo
-sleep 8s
+sleep 3s
 brew cask install microsoft-word
 echo
-echo
-brew cask install parallels
 echo
 echo
 brew cask install microsoft-excel
 echo
 echo
+echo
 brew cask install microsoft-powerpoint
+echo
 echo
 echo
 brew cask install onedrive
 echo
-echo "<<<<<<<<<<<<<<<<<<<<<<<< Installing App Ask Password >>>>>>>>>>>>>>>>>>>>>>>>>"
 echo
 echo
 echo
-echo
-echo "<<<<<<<<<<<<<<<<<<<<<<<<<< Installing Developer Apps >>>>>>>>>>>>>>>>>>>>>>>>>"
+echo ">>>>>>>>> Installing Developer Apps "
 echo
 sleep 8s
 brew cask install android-studio
@@ -64,13 +45,11 @@ echo
 echo
 brew cask install android-file-transfer
 echo
-echo "<<<<<<<<<<<<<<<<<<<< FINISHED INSTALLATION DEVELOPER APPS >>>>>>>>>>>>>>>>>>>>"
-echo
 echo
 echo
 echo 
 echo
-echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Installing FLUTTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+echo ">>>>>>>>> Installing FLUTTER "
 echo
 sleep 8s
 mkdir ~/Developer
@@ -92,12 +71,9 @@ echo
 echo
 flutter precache
 echo
-echo "<<<<<<<<<<<<<<<<<<<<<<< FINISHED INSTALLATION FLUTTER! >>>>>>>>>>>>>>>>>>>>>>>"
-echo
-echo
 echo
 echo 
-echo "<<<<<<<<<<<<<<<<<<<<<<< Installing MAC Apple Store Apps >>>>>>>>>>>>>>>>>>>>>>"
+echo ">>>>>>>>> Installing MAC Apple Store Apps "
 echo
 sleep 8s
 mas install 510620098   #MediaInfo
@@ -121,19 +97,18 @@ echo
 mas install 963642514   #Duplicate Photos Fixer Pro
 echo
 echo
-mas install 1289583905  #Pixelmator Pro
 echo
-echo
-echo
-echo "<<<<<<<<<<<<<<<< FINISHED INSTALLATION MAC APPLE STORE APPS >>>>>>>>>>>>>>>>>>"
 echo
 echo
 echo
 echo 
 echo
-echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<< Installing Other Apps >>>>>>>>>>>>>>>>>>>>>>>>>>>"
+echo ">>>>>>>>> Installing Other Apps "
 echo
-sleep 8s
+sleep 5s
+brew cask install parallels
+echo
+echo
 brew cask install cardhop
 echo
 echo
@@ -190,7 +165,7 @@ echo
 echo
 brew cask install imageoptim
 echo
-echo "<<<<<<<<<<<<<<<<<<<<<< FINISHED INSTALLATION OTHER APPS >>>>>>>>>>>>>>>>>>>>>>"
+echo ">>>>>>>>> Installing Xcode "
 echo
 echo "Grab a Coffee - Xcode Installation"
 sleep 5s
