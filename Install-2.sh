@@ -127,6 +127,9 @@ echo
 brew cask install whatsapp
 echo
 echo
+brew cask install signal
+echo
+echo
 brew cask install cyberduck
 echo
 echo
