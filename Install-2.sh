@@ -97,6 +97,12 @@ echo
 mas install 963642514   #Duplicate Photos Fixer Pro
 echo
 echo
+mas install 568494494   #Pocket
+echo
+echo
+mas install 1084713122  #Markoff - markdown viewer
+echo
+echo
 echo
 echo
 echo
