@@ -6,8 +6,8 @@ echo
 echo
 echo
 echo ">>>>>>>>> Installing Microsoft Office "
+sleep 4s
 echo
-sleep 3s
 brew cask install microsoft-word
 echo
 echo
@@ -23,8 +23,8 @@ echo
 echo
 echo
 echo ">>>>>>>>> Installing Developer Apps "
+sleep 4s
 echo
-sleep 3s
 brew cask install android-studio
 echo
 echo
@@ -40,18 +40,14 @@ echo
 echo 
 echo
 echo ">>>>>>>>> Installing FLUTTER "
+sleep 4s
 echo
-sleep 3s
 mkdir ~/Developer
 cd ~/Developer
 git clone https://github.com/flutter/flutter.git -b stable
 echo
-echo
 export PATH="$PATH:/Users/eduardo/Developer/flutter/bin"
-echo
-echo
 echo "export PATH=\"$PATH:/Users/eduardo/Developer/flutter/bin:/Users/eduardo/Library/Python/3.8/bin\"" >> ~/.zshrc
-echo
 echo
 flutter channel dev
 echo
@@ -59,7 +55,9 @@ echo
 brew tap dart-lang/dart
 echo
 echo
- brew install dart -- --devel
+brew install dart 
+sudo chown -R $(whoami) /usr/local/share/man/man8
+chmod u+w /usr/local/share/man/man8
 echo
 echo
 flutter upgrade
@@ -70,8 +68,8 @@ echo
 echo
 echo 
 echo ">>>>>>>>> Installing MAC Apple Store Apps "
+sleep 4s
 echo
-sleep 3s
 mas install 510620098   #MediaInfo
 echo
 echo
@@ -98,13 +96,11 @@ echo
 echo
 mas install 1084713122  #Markoff - markdown viewer
 echo
-echo
-echo
 echo 
 echo
 echo ">>>>>>>>> Installing Other Apps "
+sleep 4s
 echo
-sleep 3s
 brew cask install google-chrome
 echo
 echo
@@ -163,18 +159,11 @@ brew cask install imageoptim
 echo
 echo
 echo
-echo ">>>>>>>>> Changing Folder Flutter Attributes"
-echo
-sudo chown -R $(whoami) /usr/local/share/man/man8
-chmod u+w /usr/local/share/man/man8
-echo
-echo
 echo
 echo ">>>>>>>>> Installing Xcode - Grab a Coffee "
+sleep 4s
 echo
-sleep 3s
 mas install 497799835   #Xcode
-echo
 sudo xcodebuild -license accept
 echo
 brew cleanup -v
