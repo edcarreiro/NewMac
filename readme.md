@@ -71,7 +71,7 @@ Almost all my apps are installed. Only some of then do not work.
 | Filebot | brew cask | video series renamer |
 | VLC | brew cask | media player |
 | 4k video downloader | brew cask | video downloader |
-| Launchpad manager | brew cask | laundhpad utility |
+| Launchpad manager | brew cask | launchpad utility |
 | Funter | brew cask | finder files |
 | Imageoptim | brew cask | image compressor |
 |   |  |  |
