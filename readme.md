@@ -16,13 +16,13 @@ Almost all my apps are installed. Only some of then do not work.
 | Software | Way of Install | Type |
 |---|:-:|:-:|
 | brew | direct by internet | package manager |
-| iTerm2 | brew | terminal replacement |
+| iTerm2 | brew cask | terminal replacement |
 | brew mas | brew | extension to enable install Mac App Store by brew |
 | Amphetamina | mas | block Mac to sleep |
 | brew cask fonts | brew | extension to enable install fonts by brew |
 | Fira Code Font | brew | font for programming |
 | OH-MY-ZSH | shell direct by internet | framework for Mac terminal ZSH |
-| Powerlevel10k | git clone | theme for OH-MY-ZSH |
+| Powerlevel10k | git | theme for OH-MY-ZSH |
 | Configure .ZSHRC file | --- | configurations added to .zshrc |
 
 </br>
@@ -77,10 +77,10 @@ Almost all my apps are installed. Only some of then do not work.
 |   |  |  |
 | Xcode | mas | developer tool |
 |   |  |  |
-| Setapp | Downloaded | app package signature |
-| Xtrafinder | Downloaded | finder replacement |
-| Paragon NTFS | Downloaded | NTFS reader/writter |
-| Python 3.8.2 | Downloaded | compiler |
-| Affinity Photo | Downloaded | photo editor |
-| Affinity Designer | Downloaded | vector editor |
-| Affinity Publisher | Downloaded)| page designer |
+| Setapp | downloaded | app package signature |
+| Xtrafinder | downloaded | finder replacement |
+| Paragon NTFS | downloaded | NTFS reader/writter |
+| Python 3.8.2 | downloaded | compiler |
+| Affinity Photo | downloaded | photo editor |
+| Affinity Designer | downloaded | vector editor |
+| Affinity Publisher | downloaded | page designer |
