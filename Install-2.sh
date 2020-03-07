@@ -32,7 +32,6 @@ echo "Keka (brew cask)"
 echo "Whatsapp (brew cask)"
 echo "Signal (brew cask)"
 echo "Cyberduck (brew cask)"
-echo "Windscribe (brew cask)"
 echo "Plex Media Server (brew cask)"
 echo "Mkvtoolnix (brew cask)"
 echo "Avidemux (brew cask)"
@@ -182,9 +181,6 @@ brew cask install signal
 echo
 echo
 brew cask install cyberduck
-echo
-echo
-brew cask install windscribe
 echo
 echo
 brew cask install plex-media-server
