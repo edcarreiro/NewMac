@@ -104,12 +104,12 @@ echo
 export PATH="$PATH:/Users/eduardo/Developer/flutter/bin"
 echo "export PATH=\"$PATH:/Users/eduardo/Developer/flutter/bin:/Users/eduardo/Library/Python/3.8/bin\"" >> ~/.zshrc
 echo
+sudo chown -R $(whoami) /usr/local/share/man/man8
+chmod u+w /usr/local/share/man/man8
 brew tap dart-lang/dart
 echo
 echo
 brew install dart 
-sudo chown -R $(whoami) /usr/local/share/man/man8
-chmod u+w /usr/local/share/man/man8
 echo
 sudo gem install cocoapods
 pod setup
@@ -266,5 +266,6 @@ echo
 echo
 echo
 echo
-echo "TO DO: SETAPP, XTRAFINDER, PARAGON NTFS, PYTHON and AFFINITY Softwares are downloaded"
+echo "TO DO: SETAPP, XTRAFINDER, PARAGON NTFS and PYTHON Softwares are downloaded"
 echo "in Downloads folder. Just check if they are the latest versions and INSTALL!"
+echo "AFFINITY softwares must be download separeted."
