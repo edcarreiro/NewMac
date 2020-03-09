@@ -75,11 +75,14 @@ echo "alias frs10=\"flutter run -d RQ8M60ER93N\"" >> ~/.zshrc
 echo "alias fcreate=\"flutter create --androidx -t app\"" >> ~/.zshrc
 echo "alias gitpf=\"git push -f origin master\"" >> ~/.zshrc
 echo "alias backpz=\"sh ~/projetos/PlexZSHRCBackup.sh\"" >> ~/.zshrc
+echo "alias python=\"python3\"" >> ~/.zshrc
 echo "### END OF CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO ###" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "# ZSH_THEME=powerlevel10k/powerlevel10k   # Replace this line in the beginnging of this file" >> ~/.zshrc
 echo
+echo "Now ATOM editor will be openned to config ZSH THEME item in .zshrc file"
 echo
+sleep 8s
 echo "FINISH. Don't forget to replace ZHS_THEME for POWERLEVEL10k in .zshrc file"
 echo "The line is alredy added in the file but must be replaced for the default configuration."
