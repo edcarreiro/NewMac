@@ -101,8 +101,12 @@ mkdir ~/Developer
 cd ~/Developer
 git clone https://github.com/flutter/flutter.git -b stable
 echo
+echo " " >> ~/.zshrc
+echo " " >> ~/.zshrc
 export PATH="$PATH:/Users/eduardo/Developer/flutter/bin"
 echo "export PATH=\"$PATH:/Users/eduardo/Developer/flutter/bin:/Users/eduardo/Library/Python/3.8/bin\"" >> ~/.zshrc
+echo " " >> ~/.zshrc
+echo " " >> ~/.zshrc
 echo
 sudo chown -R $(whoami) /usr/local/share/man/man8
 chmod u+w /usr/local/share/man/man8
