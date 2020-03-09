@@ -8,6 +8,7 @@ echo "=================="
 echo
 echo "Homebrew"
 echo "iTerm2 (brew)"
+echo "Atom (brew)"
 echo "Brew mas and Amphetamina (mas)"
 echo "Brew cask fonts and Fira Code Font (brew fonts)"
 echo "OH-MY-ZSH"
@@ -29,6 +30,11 @@ echo
 sleep 3s
 brew cask install iterm2
 echo
+echo
+echo ">>>>>>>>> Installing Atom! "
+echo
+sleep 3s
+brew cask install atom
 echo
 echo
 echo ">>>>>>>>> Installing Homebrew MAS and Amphetamine! "
