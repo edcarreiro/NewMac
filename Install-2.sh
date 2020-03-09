@@ -86,9 +86,6 @@ echo
 brew cask install visual-studio-code
 echo
 echo
-brew cask install atom
-echo
-echo
 brew cask install android-file-transfer
 echo
 echo
