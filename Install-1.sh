@@ -88,8 +88,11 @@ echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "# ZSH_THEME=powerlevel10k/powerlevel10k   # Replace this line in the beginnging of this file" >> ~/.zshrc
 echo
-echo "Don't forget to REPLACE ZSH_THEME in .zsrc file
-echo
+echo "Atom will be open to replace ZSH Theme"
 sleep 8s
+echo
+echo
+atom ~/.zshrc
+echo
 echo "FINISH. Don't forget to replace ZHS_THEME for POWERLEVEL10k in .zshrc file"
 echo "The line is alredy added in the file but must be replaced for the default configuration."
