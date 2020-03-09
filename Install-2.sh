@@ -204,6 +204,12 @@ echo
 brew cask install 4k-video-downloader
 echo
 echo
+brew cask install dropbox
+echo
+echo
+brew cask install deltawalker
+echo
+echo
 brew cask install launchpad-manager
 echo
 echo
@@ -243,24 +249,10 @@ sleep 3s
 curl  -o "/Users/eduardo/Downloads/InstallSetapp.zip" "https://dl.devmate.com/com.setapp.InstallSetapp/InstallSetapp.zip" 
 echo
 echo
-echo ">>>>>>>>> Downloading PYTHON 3.8.2 "
-sleep 3s
-curl  -o "/Users/eduardo/Downloads/python-3.8.2-macosx10.9.pkg" "https://www.python.org/ftp/python/3.8.2/python-3.8.2-macosx10.9.pkg" 
+# echo ">>>>>>>>> Downloading PYTHON 3.8.2 "
+# sleep 3s
+# curl  -o "/Users/eduardo/Downloads/python-3.8.2-macosx10.9.pkg" "https://www.python.org/ftp/python/3.8.2/python-3.8.2-macosx10.9.pkg" 
 echo
-echo
-echo ">>>>>>>>> Downloading AFFINITY PUBLISHER "
-sleep 3s
-curl  -o "/Users/eduardo/Downloads/affinity-publisher-1.8.1.dmg" "https://d1gl0nrskhax8d.cloudfront.net/macos/publisher/1.8.1/affinity-publisher-1.8.1.dmg?Expires=1583077105&Signature=TifvTsdeh5YIuFbhT9zqOdg0BUw5KJ-ZZERiv0SI2tpoe3rH~adbY-SmtmbaaMRML2xNJ93NxmMDn4EqyXRqVh2ja8Avt3CIUxK4QPtX78xo96TvYdnntmjivVu6dkAeptoSCdk6AfMGYU2QxteBQnVCOZ5RXe~TyET3IdVGkdfhOVwPQDz1dGEyK8pCa7IPkkzy069oVAhi-pIbu3GRpt8VikAUJ6nsW9u-tz8o43itKOsa0LyCQ-yM4ObT0wqYZiej-Jbr~K-oI1Jm1jTIaaqAcHCnZ1Frv~nE5j9b7DHyljUt1d3b0HeMeC5fLSiQhICD3DoFW5T7599PcSWO9g__&Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ" 
-echo
-echo
-echo ">>>>>>>>> Downloading AFFINITY DESIGNER "
-sleep 3s
-curl  -o "/Users/eduardo/Downloads/affinity-designer-1.8.1.dmg" "https://d1gl0nrskhax8d.cloudfront.net/macos/designer/1.8.1/affinity-designer-1.8.1.dmg?Expires=1583077208&Signature=B7DUpYxYgohggxhX4dnCkNoecvlO3sBjJIylUkPkqm20dzhtXlGxE1Gpzo20U8gfT~KIAq712mHYE1ks3~t7g78zXmXzHlnFa3GulgR3unFwAuQel8b3ZFVp0~RZgoCDbjgdhFFOc7hICHgQUUIDywJGNEWlRha6gsdjKa0IxcrCE2yH26OLA4AAG2a~369AexsPw7d-S531HKpS0O0512b38nVkyQNfGIBW3H4X71UwwWBHo9EKrGj1Zg5z-mu~v4ihinyoetIv9476DomYzZiS4m5utXYPVSiEo89v8S-ciW5ldkyNrMxt9qYlgM96gK5YuBl4-x~pQKwIiT1QxQ__&Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ" 
-echo
-echo
-echo ">>>>>>>>> Downloading AFFINITY PHOTO "
-sleep 3s
-curl  -o "/Users/eduardo/Downloads/affinity-photo-1.8.1.dmg" "https://d1gl0nrskhax8d.cloudfront.net/macos/photo/1.8.1/affinity-photo-1.8.1.dmg?Expires=1583077552&Signature=eXnc8pfnQq0xXKPSB0akzyUk1k4fPyON30j~9WJrWplcT6CSyY7iknFCFhlvn8~8EEOvlHtxJ1sTZsPdhbbwJ1ETYMRBagEjZPhrZvxye7WvP-luDHYLA2AZVwdz02mtBCOTc4npn9i4Mopgvn~YQPA3Aa9VsBDq8UcJqh8K3NDDSyfWx1BWorXKItBZ8ttC-gvQr2aLpl5HB6TQqzswEaZEnaVhroXMJvtRL-lH-tYRDbGVWdRomUXlhbbmUZ8j-jce6k7nBRvYfzyzAWuvpRoc9OC57~wzzEf64zujfElNh7adRg7bzXrFx6xtffUkFkUnd-SdWSrAXmwkoJc06w__&Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ" 
 echo
 echo
 echo
@@ -268,4 +260,4 @@ echo
 echo
 echo "TO DO: SETAPP, XTRAFINDER, PARAGON NTFS and PYTHON Softwares are downloaded"
 echo "in Downloads folder. Just check if they are the latest versions and INSTALL!"
-echo "AFFINITY softwares must be download separeted."
+echo "Affinity, ACDSee softwares must be download separated."
