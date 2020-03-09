@@ -152,9 +152,6 @@ echo
 mas install 568494494   #Pocket
 echo
 echo
-mas install 1084713122  #Markoff - markdown viewer
-echo
-echo 
 echo
 echo ">>>>>>>>> Installing Other Apps "
 sleep 4s
