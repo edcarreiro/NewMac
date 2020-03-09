@@ -258,6 +258,6 @@ echo
 echo
 echo
 echo
-echo "TO DO: SETAPP, XTRAFINDER, PARAGON NTFS and PYTHON Softwares are downloaded"
-echo "in Downloads folder. Just check if they are the latest versions and INSTALL!"
-echo "Affinity, ACDSee softwares must be download separated."
+echo "TO DO: SETAPP, XTRAFINDER, PARAGON NTFS Softwares are downloaded in"
+echo "Downloads folder. Just check if they are the latest versions and INSTALL!"
+echo "Affinity, ACDSee and PYTHON 3 softwares must be download separated."
