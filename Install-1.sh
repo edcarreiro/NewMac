@@ -70,18 +70,19 @@ echo " " >> ~/.zshrc
 echo "####### CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO #######" >> ~/.zshrc
 echo "alias ls=\"ls -la -Gh\"" >> ~/.zshrc
 echo "alias cd..=\"cd ..\"" >> ~/.zshrc
-echo "alias delds=\"sh /Users/eduardo/Projects/CleanMAC.sh\"" >> ~/.zshrc
+echo "alias ˜=\"~\"" >> ~/.zshrc
+echo "alias delds=\"sh /Users/eduardo/Projects/NewMac/CleanMAC.sh\"" >> ~/.zshrc
 echo "alias frs10=\"flutter run -d RQ8M60ER93N\"" >> ~/.zshrc
 echo "alias fcreate=\"flutter create --androidx -t app\"" >> ~/.zshrc
 echo "alias gitpf=\"git push -f origin master\"" >> ~/.zshrc
-echo "alias backpz=\"sh ~/projetos/PlexZSHRCBackup.sh\"" >> ~/.zshrc
+echo "alias backpz=\"sh /Users/eduardo/Projects/NewMac/PlexZSHRCBackup.sh\"" >> ~/.zshrc
 echo "alias python=\"python3\"" >> ~/.zshrc
 echo "### END OF CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO ###" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "# ZSH_THEME=powerlevel10k/powerlevel10k   # Replace this line in the beginnging of this file" >> ~/.zshrc
 echo
-echo "Now ATOM editor will be openned to config ZSH THEME item in .zshrc file"
+echo "Don't forget to REPLACE ZSH_THEME in .zsrc file
 echo
 sleep 8s
 echo "FINISH. Don't forget to replace ZHS_THEME for POWERLEVEL10k in .zshrc file"
