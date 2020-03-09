@@ -24,7 +24,6 @@ sleep 3s
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 echo
 echo
-echo
 echo ">>>>>>>>> Installing iTerm2! "
 echo
 sleep 3s
@@ -87,12 +86,13 @@ echo "### END OF CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO ###" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "# ZSH_THEME=powerlevel10k/powerlevel10k   # Replace this line in the beginnging of this file" >> ~/.zshrc
+echo " " >> ~/.zshrc
 echo
-echo "Atom will be open to replace ZSH Theme"
+echo "TextEdit will be open to replace ZSH Theme"
 sleep 8s
 echo
 echo
-atom ~/.zshrc
+open -a TextEdit ~/.zshrc
 echo
 echo "FINISH. Don't forget to replace ZHS_THEME for POWERLEVEL10k in .zshrc file"
 echo "The line is alredy added in the file but must be replaced for the default configuration."
