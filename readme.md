@@ -17,6 +17,7 @@ Almost all my apps are installed. Only some of then do not work.
 |---|:-:|:-:|
 | brew | direct by internet | package manager |
 | iTerm2 | brew cask | terminal replacement |
+| Atom | brew cask | text editor |
 | brew mas | brew | extension to enable install Mac App Store by brew |
 | Amphetamina | mas | block Mac to sleep |
 | brew cask fonts | brew | extension to enable install fonts by brew |
@@ -39,7 +40,6 @@ Almost all my apps are installed. Only some of then do not work.
 |   |  |  |
 | Android Studio | brew cask | IDE for flutter |
 | Visual Studio Code | brew cask | IDE |
-| Atom | brew cask | text editor |
 | Android File Transfer | brew cask | transfer files to mobile |
 |   |  |  |
 | Flutter | git | framework |
