@@ -1,58 +1,3 @@
-echo "Will be Installed:"
-echo "=================="
-echo "Parallels (brew cask)"
-echo "Microsoft Word (brew cask)"
-echo "Microsoft Excel (brew cask)"
-echo "Microsoft OneDrive (brew cask)"
-echo ""
-echo "Android Studio (brew cask)"
-echo "Visual Studio Code (brew cask)"
-echo "Android File Transfer (brew cask)"
-echo ""
-echo "Flutter (git)"
-echo "Dart (brew)"
-echo ""
-echo "MediaInfo (mas)"
-echo "BetterSnapTool (mas)"
-echo "Better Rename 10 (mas)"
-echo "Telegram Desktop (mas)"
-echo "Airmail 3 (mas)"
-echo "Pages (mas)"
-echo "Duplicate Photos Fixer Pro (mas)"
-echo "Pocket (mas)"
-echo "Markoff - markdown viewer (mas)"
-echo ""
-echo ""
-echo "Google Chrome (brew cask)"
-echo "Firefox (brew cask)"
-echo "Brave Browser (brew cask)"
-echo "1password (brew cask)"
-echo "Keka (brew cask)"
-echo "Whatsapp (brew cask)"
-echo "Signal (brew cask)"
-echo "Cyberduck (brew cask)"
-echo "Plex Media Server (brew cask)"
-echo "Mkvtoolnix (brew cask)"
-echo "Avidemux (brew cask)"
-echo "Aegisub (brew cask)"
-echo "Filebot (brew cask)"
-echo "VLC (brew cask)"
-echo "4k video downloader (brew cask)"
-echo "Launchpad manager (brew cask)"
-echo "Funter (brew cask)"
-echo "Imageoptim (brew cask)"
-echo ""
-echo "Xcode (mas)"
-echo ""
-echo "Setapp (Downloaded)"
-echo "Xtrafinder (Downloaded)"
-echo "Paragon NTFS (Downloaded)"
-echo "Python 3.8.2 (Downloaded)"
-echo "Affinity Photo (Downloaded)"
-echo "Affinity Designer (Downloaded)"
-echo "Affinity Publisher (Downloaded)"
-echo
-echo
 read -p "Press [ENTER] to continue"
 clear
 echo ">>>>>>>>> Installing Parallels "
@@ -152,6 +97,9 @@ echo
 mas install 568494494   #Pocket
 echo
 echo
+mas install 1278508951   #Trello
+echo
+echo
 echo
 echo ">>>>>>>>> Installing Other Apps "
 sleep 4s
@@ -195,7 +143,7 @@ echo
 brew cask install filebot
 echo
 echo
-brew cask install vlc
+brew cask install iina
 echo
 echo
 brew cask install 4k-video-downloader
