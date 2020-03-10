@@ -6,3 +6,4 @@ rm -r -f ~/Music/Music/
 brew cleanup -v
 brew cleanup cask -v
 rm -R -f ~/Library/Caches/Homebrew/*
+rm *log.html
