@@ -155,6 +155,9 @@ echo
 brew cask install deltawalker
 echo
 echo
+brew cask install a-better-finder-attributes
+echo
+echo
 brew cask install launchpad-manager
 echo
 echo
