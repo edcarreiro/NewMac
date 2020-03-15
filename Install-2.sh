@@ -100,6 +100,12 @@ echo
 mas install 1278508951   #Trello
 echo
 echo
+mas install 1289583905   #Pixelmator Pro
+echo
+echo
+mas install 1470168007   #Vectornator Pro
+echo
+echo
 echo
 echo ">>>>>>>>> Installing Other Apps "
 sleep 4s
