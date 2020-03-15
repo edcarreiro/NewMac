@@ -149,6 +149,9 @@ echo
 brew cask install 4k-video-downloader
 echo
 echo
+brew cask install daisydisk
+echo
+echo
 brew cask install dropbox
 echo
 echo
@@ -182,9 +185,9 @@ brew cleanup cask -v
 rm -R -f ~/Library/Caches/Homebrew/*
 echo
 echo
-echo ">>>>>>>>> Downloading Paragon NTFS "
+echo ">>>>>>>>> Downloading VideoProc "
 sleep 3s
-curl  -o "/Users/eduardo/Downloads/ntfsmac15_trial.dmg" "http://dl.paragon-software.com/demo/ntfsmac15_trial.dmg"
+curl  -o "/Users/eduardo/Downloads/videoproc.dmg" "https://www.videoproc.com/download/videoproc.dmg"
 echo
 echo
 echo ">>>>>>>>> Downloading XtraFinder "
@@ -206,6 +209,6 @@ echo
 echo
 echo
 echo
-echo "TO DO: SETAPP, XTRAFINDER, PARAGON NTFS Softwares are downloaded in"
+echo "TO DO: SETAPP, XTRAFINDER, VIDEOPROC Softwares are downloaded in"
 echo "Downloads folder. Just check if they are the latest versions and INSTALL!"
 echo "Affinity, ACDSee and PYTHON 3 softwares must be download separated."
