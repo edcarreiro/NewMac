@@ -152,6 +152,9 @@ echo
 brew cask install iina
 echo
 echo
+brew cask install typora
+echo
+echo
 brew cask install 4k-video-downloader
 echo
 echo
