@@ -209,15 +209,15 @@ sleep 3s
 curl  -o "/Users/eduardo/Downloads/InstallSetapp.zip" "https://dl.devmate.com/com.setapp.InstallSetapp/InstallSetapp.zip" 
 echo
 echo
-# echo ">>>>>>>>> Downloading PYTHON 3.8.2 "
-# sleep 3s
-# curl  -o "/Users/eduardo/Downloads/python-3.8.2-macosx10.9.pkg" "https://www.python.org/ftp/python/3.8.2/python-3.8.2-macosx10.9.pkg" 
+echo ">>>>>>>>> Downloading ACDSee Photo Studio "
+sleep 3s
+curl  -o "/Users/eduardo/Downloads/acdsee-photo-studio-mac.dmg" "http://dl.acdsystems.com/acdsee/en/acdsee-photo-studio-mac.dmg" 
 echo
 echo
 echo
 echo
 echo
 echo
-echo "TO DO: SETAPP, XTRAFINDER, VIDEOPROC Softwares are downloaded in"
+echo "TO DO: SETAPP, XTRAFINDER, VIDEOPROC and ACDSee Softwares are downloaded in"
 echo "Downloads folder. Just check if they are the latest versions and INSTALL!"
-echo "Affinity, ACDSee and PYTHON 3 softwares must be download separated."
+echo "Affinity and PYTHON 3 softwares must be download separated."
