@@ -24,6 +24,7 @@ sleep 3s
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 echo
 echo
+echo
 echo ">>>>>>>>> Installing iTerm2! "
 echo
 sleep 3s
@@ -76,23 +77,40 @@ echo "####### CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO #######" >> ~/.zshr
 echo "alias ls=\"ls -la -Gh\"" >> ~/.zshrc
 echo "alias cd..=\"cd ..\"" >> ~/.zshrc
 echo "alias ˜=\"~\"" >> ~/.zshrc
-echo "alias delds=\"sh /Users/eduardo/Projects/NewMac/CleanMAC.sh\"" >> ~/.zshrc
 echo "alias frs10=\"flutter run -d RQ8M60ER93N\"" >> ~/.zshrc
 echo "alias fcreate=\"flutter create --androidx -t app\"" >> ~/.zshrc
 echo "alias gitpf=\"git push -f origin master\"" >> ~/.zshrc
-echo "alias backpz=\"sh /Users/eduardo/Projects/NewMac/PlexZSHRCBackup.sh\"" >> ~/.zshrc
 echo "alias python=\"python3\"" >> ~/.zshrc
+echo " " >> ~/.zshrc
+echo "function delds {" >> ~/.zshrc
+echo "  rm -r -f ~/Movies/TV" >> ~/.zshrc
+echo "  find . -name '.DS_Store' -type f -delete" >> ~/.zshrc
+echo "  find . -name '.localized' -type f -delete" >> ~/.zshrc
+echo "  rm -r -f ~/Pictures/Photos\ Library.photoslibrary/" >> ~/.zshrc
+echo "  rm -r -f ~/Music/Music/" >> ~/.zshrc
+echo "  brew cleanup -v" >> ~/.zshrc
+echo "  brew cleanup cask -v" >> ~/.zshrc
+echo "#  rm -R -f ~/Library/Caches/Homebrew/*" >> ~/.zshrc
+echo "#  rm *log.html" >> ~/.zshrc
+echo "}" >> ~/.zshrc
+echo " " >> ~/.zshrc
+echo "function backupzp {" >> ~/.zshrc
+echo "  zip -r -q ~/Temporary/PlexMediaServerBackup.zip ~/Library/Application\ Support/Plex\ Media\ Server" >> ~/.zshrc
+echo "  mv ~/Temporary/PlexMediaServerBackup.zip ~/Dropbox/BACKUP" >> ~/.zshrc
+echo "  cp .zshrc ~/Dropbox/BACKUP/zshrcBACKUP.txt" >> ~/.zshrc
+echo "}" >> ~/.zshrc
 echo "### END OF CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO ###" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "# ZSH_THEME=powerlevel10k/powerlevel10k   # Replace this line in the beginnging of this file" >> ~/.zshrc
-echo " " >> ~/.zshrc
 echo
 echo "TextEdit will be open to replace ZSH Theme"
-sleep 8s
+sleep 5s
 echo
 echo
 open -a TextEdit ~/.zshrc
+echo
+echo
 echo
 echo "FINISH. Don't forget to replace ZHS_THEME for POWERLEVEL10k in .zshrc file"
 echo "The line is alredy added in the file but must be replaced for the default configuration."
