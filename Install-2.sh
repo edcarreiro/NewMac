@@ -194,10 +194,6 @@ brew cleanup cask -v
 rm -R -f ~/Library/Caches/Homebrew/*
 echo
 echo
-echo ">>>>>>>>> Downloading VideoProc "
-sleep 3s
-curl  -o "/Users/eduardo/Downloads/videoproc.dmg" "https://www.videoproc.com/download/videoproc.dmg"
-echo
 echo
 echo ">>>>>>>>> Downloading XtraFinder "
 sleep 3s
@@ -216,8 +212,6 @@ echo
 echo
 echo
 echo
-echo
-echo
-echo "TO DO: SETAPP, XTRAFINDER, VIDEOPROC and ACDSee Softwares are downloaded in"
+echo "TO DO: SETAPP, XTRAFINDER and ACDSee Softwares are downloaded in"
 echo "Downloads folder. Just check if they are the latest versions and INSTALL!"
 echo "Affinity and PYTHON 3 softwares must be download separated."

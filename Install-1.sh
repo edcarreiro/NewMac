@@ -6,16 +6,6 @@ echo
 echo "Will be Installed:"
 echo "=================="
 echo
-echo "Homebrew"
-echo "iTerm2 (brew)"
-echo "Atom (brew)"
-echo "Brew mas and Amphetamina (mas)"
-echo "Brew cask fonts and Fira Code Font (brew fonts)"
-echo "OH-MY-ZSH"
-echo "Powerlevel10k (paste command in OH-MY-ZSH shell"
-echo "Configure .ZSHRC file"
-echo
-echo
 read -p "Press [ENTER] to continue"
 clear
 echo ">>>>>>>>> Installing Homebrew!"
@@ -31,10 +21,12 @@ sleep 3s
 brew cask install iterm2
 echo
 echo
+echo
 echo ">>>>>>>>> Installing Atom! "
 echo
 sleep 3s
 brew cask install atom
+echo
 echo
 echo
 echo ">>>>>>>>> Installing Homebrew MAS and Amphetamine! "
@@ -104,11 +96,14 @@ echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "# ZSH_THEME=powerlevel10k/powerlevel10k   # Replace this line in the beginnging of this file" >> ~/.zshrc
 echo
+echo
+echo
 echo "TextEdit will be open to replace ZSH Theme"
 sleep 5s
 echo
 echo
 open -a TextEdit ~/.zshrc
+echo
 echo
 echo
 echo
