@@ -149,6 +149,9 @@ echo
 brew cask install filebot
 echo
 echo
+brew cask install musicbrainz-picard
+echo
+echo
 brew cask install iina
 echo
 echo
