@@ -7,20 +7,20 @@ brew cask install parallels
 echo
 echo
 echo
-echo ">>>>>>>>> Installing Microsoft Office "
-sleep 4s
-echo
-brew cask install microsoft-word
-echo
-echo
-brew cask install microsoft-excel
-echo
-echo
-brew cask install onedrive
-echo
-echo
-echo
-echo
+# echo ">>>>>>>>> Installing Microsoft Office "
+# sleep 4s
+# echo
+# brew cask install microsoft-word
+# echo
+# echo
+# brew cask install microsoft-excel
+# echo
+# echo
+# brew cask install onedrive
+# echo
+# echo
+# echo
+# echo
 echo ">>>>>>>>> Installing Developer Apps "
 sleep 4s
 echo
@@ -217,4 +217,4 @@ echo
 echo
 echo "TO DO: SETAPP, XTRAFINDER and ACDSee Softwares are downloaded in"
 echo "Downloads folder. Just check if they are the latest versions and INSTALL!"
-echo "Affinity and PYTHON 3 softwares must be download separated."
+echo "Affinity, Movavi Suite, Aimersoft and PYTHON 3 softwares must be download separated."
