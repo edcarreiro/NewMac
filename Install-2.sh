@@ -7,13 +7,13 @@ brew cask install parallels
 echo
 echo
 echo
-# echo ">>>>>>>>> Installing Microsoft Office "
-# sleep 4s
-# echo
-# brew cask install microsoft-word
-# echo
-# echo
-# brew cask install microsoft-excel
+echo ">>>>>>>>> Installing Microsoft Office "
+leep 4s
+echo
+brew cask install microsoft-word
+echo
+echo
+brew cask install microsoft-excel
 # echo
 # echo
 # brew cask install onedrive
@@ -76,7 +76,7 @@ echo
 mas install 510620098   #MediaInfo
 echo
 echo
-mas install 417375580   #BetterSnapTool
+# mas install 417375580   #BetterSnapTool
 echo
 echo
 mas install 1063663640  #Better Rename 10
@@ -109,6 +109,12 @@ echo
 echo
 echo ">>>>>>>>> Installing Other Apps "
 sleep 4s
+echo
+brew install rclone
+echo
+echo
+brew cask install expandrive
+echo
 echo
 brew cask install google-chrome
 echo
@@ -180,6 +186,9 @@ brew cask install funter
 echo
 echo
 brew cask install imageoptim
+echo
+echo
+brew cask install cheatsheet
 echo
 echo
 echo
