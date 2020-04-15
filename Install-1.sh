@@ -86,10 +86,10 @@ echo "#  rm -R -f ~/Library/Caches/Homebrew/*" >> ~/.zshrc
 echo "#  rm *log.html" >> ~/.zshrc
 echo "}" >> ~/.zshrc
 echo " " >> ~/.zshrc
-echo "function find0 {"
-echo "  find . -size 0"
-echo "  find ./ -type f -size 0"
-echo "}"
+echo "function find0 {" >> ~/.zshrc
+echo "  find . -size 0" >> ~/.zshrc
+echo "  find ./ -type f -size 0" >> ~/.zshrc
+echo "}" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "function backupzp {" >> ~/.zshrc
 echo "  zip -r -q ~/Temporary/PlexMediaServerBackup.zip ~/Library/Application\ Support/Plex\ Media\ Server" >> ~/.zshrc
