@@ -78,7 +78,6 @@ echo "function delds {" >> ~/.zshrc
 echo "  rm -r -f ~/Movies/TV" >> ~/.zshrc
 echo "  find . -name '.DS_Store' -type f -delete" >> ~/.zshrc
 echo "  find . -name '.localized' -type f -delete" >> ~/.zshrc
-echo "  rm -r -f ~/Pictures/Photos\ Library.photoslibrary/" >> ~/.zshrc
 echo "  rm -r -f ~/Music/Music/" >> ~/.zshrc
 echo "  brew cleanup -v" >> ~/.zshrc
 echo "  brew cleanup cask -v" >> ~/.zshrc
