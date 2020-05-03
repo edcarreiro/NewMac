@@ -1,6 +1,6 @@
 #!/bin/bash         
 clear
-read -p "Are you already installed F-SECURE? If YES press [ENTER]"
+read -p "Are you already installed BITDEFENDER? If YES press [ENTER]"
 read -p "Are you Sure? If YES press [ENTER]"
 echo
 echo "Will be Installed:"
