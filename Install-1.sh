@@ -66,7 +66,7 @@ echo ">>>>>>>>> Configuring .zshrc file!"
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo "####### CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO #######" >> ~/.zshrc
-echo "alias ls=\"ls -la -Gh\"" >> ~/.zshrc
+echo "alias lsa=\"ls -la -Gh\"" >> ~/.zshrc
 echo "alias cd..=\"cd ..\"" >> ~/.zshrc
 echo "alias ˜=\"~\"" >> ~/.zshrc
 echo "alias frs10=\"flutter run -d RQ8M60ER93N\"" >> ~/.zshrc
