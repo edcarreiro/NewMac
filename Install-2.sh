@@ -79,9 +79,6 @@ echo
 mas install 417375580   #BetterSnapTool
 echo
 echo
-mas install 1063663640  #Better Rename 10
-echo
-echo
 mas install 946399090   #Telegram Desktop
 echo
 echo
@@ -175,6 +172,9 @@ brew cask install deltawalker
 echo
 echo
 brew cask install a-better-finder-attributes
+echo
+echo
+brew cask a-better-finder-rename
 echo
 echo
 brew cask install launchpad-manager
