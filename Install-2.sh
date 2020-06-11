@@ -105,6 +105,13 @@ echo
 echo
 mas install 585829637   #Todoist
 echo
+echo
+mas install 410968114   #PDF Scanner
+echo
+echo
+mas insall 1116599239   #NordVPN
+echo
+echo
 echo ">>>>>>>>> Installing Other Apps "
 sleep 4s
 brew tap homebrew/cask-versions
