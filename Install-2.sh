@@ -85,7 +85,7 @@ echo
 mas install 918858936   #Airmail 3
 echo
 echo
-mas install 409201541   #Pages
+# mas install 409201541   #Pages
 echo
 echo
 mas install 963642514   #Duplicate Photos Fixer Pro
@@ -94,7 +94,7 @@ echo
 mas install 568494494   #Pocket
 echo
 echo
-mas install 1278508951   #Trello
+# mas install 1278508951   #Trello
 echo
 echo
 mas install 1289583905   #Pixelmator Pro
@@ -107,6 +107,7 @@ mas install 585829637   #Todoist
 echo
 echo ">>>>>>>>> Installing Other Apps "
 sleep 4s
+brew tap homebrew/cask-versions
 echo
 brew install rclone
 echo
@@ -114,10 +115,8 @@ echo
 brew cask install google-chrome
 echo
 echo
-# brew cask install firefox
+brew cask install firefox-developer-edition
 echo
-echo
-brew cask install brave-browser
 echo
 echo
 brew cask install 1password
