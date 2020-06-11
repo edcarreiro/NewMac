@@ -116,6 +116,10 @@ echo ">>>>>>>>> Installing Other Apps "
 sleep 4s
 brew tap homebrew/cask-versions
 echo
+echo
+brew cask install alfred
+echo
+echo
 brew install rclone
 echo
 echo
