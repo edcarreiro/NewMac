@@ -184,7 +184,7 @@ echo
 brew cask install a-better-finder-attributes
 echo
 echo
-brew cask a-better-finder-rename
+brew cask install a-better-finder-rename
 echo
 echo
 brew cask install launchpad-manager
