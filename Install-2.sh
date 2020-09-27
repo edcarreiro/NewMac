@@ -88,7 +88,7 @@ echo
 # mas install 409201541   #Pages
 echo
 echo
-mas install 963642514   #Duplicate Photos Fixer Pro
+mas install 463362050   #PhotoSwepper
 echo
 echo
 mas install 568494494   #Pocket
