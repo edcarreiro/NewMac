@@ -3,20 +3,20 @@ clear
 echo ">>>>>>>>> Installing Parallels "
 echo
 sleep 3s
-brew cask install parallels
+brew install --cask parallels
 echo
 echo
 echo
 echo ">>>>>>>>> Installing Microsoft Office "
 leep 4s
 echo
-brew cask install microsoft-word
+brew install --cask microsoft-word
 echo
 echo
-brew cask install microsoft-excel
+brew install --cask microsoft-excel
 # echo
 # echo
-# brew cask install onedrive
+# brew install --cask onedrive
 # echo
 # echo
 # echo
@@ -24,13 +24,13 @@ brew cask install microsoft-excel
 echo ">>>>>>>>> Installing Developer Apps "
 sleep 4s
 echo
-# brew cask install android-studio
+# brew install --cask android-studio
 echo
 echo
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 echo
 echo
-# brew cask install android-file-transfer
+# brew install --cask android-file-transfer
 echo
 echo
 echo 
@@ -117,83 +117,83 @@ sleep 4s
 brew tap homebrew/cask-versions
 echo
 echo
-brew cask install alfred
+brew install --cask alfred
 echo
 echo
 brew install rclone
 echo
 echo
-brew cask install google-chrome
+brew install --cask google-chrome
 echo
 echo
-brew cask install firefox-developer-edition
+brew install --cask firefox-developer-edition
 echo
 echo
 echo
-brew cask install 1password
+brew install --cask 1password
 echo
 echo
-brew cask install keka
+brew install --cask keka
 echo
 echo
-brew cask install whatsapp
+brew install --cask whatsapp
 echo
 echo
-brew cask install signal
+brew install --cask signal
 echo
 echo
-brew cask install cyberduck
+brew install --cask cyberduck
 echo
 echo
-brew cask install plex-media-server
+brew install --cask plex-media-server
 echo
 echo
-brew cask install mkvtoolnix
+brew install --cask mkvtoolnix
 echo
 echo
-brew cask install avidemux
+brew install --cask avidemux
 echo
 echo
-brew cask install aegisub
+brew install --cask aegisub
 echo
 echo
-brew cask install filebot
+brew install --cask filebot
 echo
 echo
-# brew cask install musicbrainz-picard
+# brew install --cask musicbrainz-picard
 echo
 echo
-brew cask install iina
+brew install --cask iina
 echo
 echo
-brew cask install typora
+brew install --cask typora
 echo
 echo
-brew cask install 4k-video-downloader
+brew install --cask 4k-video-downloader
 echo
 echo
-brew cask install daisydisk
+brew install --cask daisydisk
 echo
 echo
-brew cask install dropbox
+brew install --cask dropbox
 echo
 echo
-brew cask install deltawalker
+brew install --cask deltawalker
 echo
 echo
-brew cask install a-better-finder-attributes
+brew install --cask a-better-finder-attributes
 echo
 echo
-brew cask install a-better-finder-rename
+brew install --cask a-better-finder-rename
 echo
 echo
-brew cask install launchpad-manager
+brew install --cask launchpad-manager
 echo
 echo
-brew cask install funter
+brew install --cask funter
 echo
 echo
-brew cask install imageoptim
+brew install --cask imageoptim
 echo
 echo
 echo
