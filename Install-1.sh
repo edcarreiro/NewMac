@@ -29,10 +29,10 @@ brew cask install atom
 echo
 echo
 echo
-echo ">>>>>>>>> Installing Homebrew MAS and Amphetamine! "
+echo ">>>>>>>>> Installing exiftool and Amphetamine! "
 echo
 sleep 3s
-brew install mas
+brew install exiftool
 echo
 echo
 mas install 937984704   #Amphetamine
@@ -95,6 +95,15 @@ echo "  zip -r -q ~/Temporary/PlexMediaServerBackup.zip ~/Library/Application\ S
 echo "  mv ~/Temporary/PlexMediaServerBackup.zip ~/Dropbox/BACKUP" >> ~/.zshrc
 echo "  cp .zshrc ~/Dropbox/BACKUP/zshrcBACKUP.txt" >> ~/.zshrc
 echo "}" >> ~/.zshrc
+echo " " >> ~/.zshrc
+echo " " >> ~/.zshrc
+echo "# Function to correct date/time in video files#" >> ~/.zshrc
+echo " " >> ~/.zshrc
+echo "function exifmp4" >> ~/.zshrc
+echo "  exiftool $1 \"-time:all=$2\"" >> ~/.zshrc
+echo "}" >> ~/.zshrc
+echo " " >> ~/.zshrc
+echo " " >> ~/.zshrc
 echo "### END OF CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO ###" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
