@@ -64,6 +64,7 @@ brew install --cask dropbox
 brew install --cask a-better-finder-rename
 brew install --cask imageoptim
 brew install --cask launchpad-manager
+brew install --cask mounty #NTFS for Mac
 echo
 echo
 echo
