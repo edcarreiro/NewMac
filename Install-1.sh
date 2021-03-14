@@ -1,12 +1,3 @@
-#!/bin/bash         
-clear
-read -p "Are you already installed BITDEFENDER? If YES press [ENTER]"
-read -p "Are you Sure? If YES press [ENTER]"
-echo
-clear
-
-
-
 echo "###########  Installing Homebrew and MAS! "
 sleep 3s
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -21,39 +12,19 @@ echo
 
 
 
-echo "###########  Installing TERMINAL COMMAND APPS! "
-sleep 3s
-echo
-echo
-brew tap homebrew/cask-fonts
-brew tap homebrew/cask-versions
-brew install --cask font-fira-code
-brew install exiftool
-echo
-echo
-echo
-echo
-echo
-echo
-
-
-
 echo"###########  Installing Brew Cask APPS! "
 sleep 3s
 echo
 echo
-mas install 937984704   #Amphetamine
-brew install --cask iterm2
-brew install --cask alfred
-brew install --cask google-chrome
-brew install --cask firefox-developer-edition
-brew install --cask 1password
-brew install --cask keka
-brew install --cask whatsapp
-brew install --cask signal
 brew install --cask microsoft-word
 brew install --cask microsoft-excel
 brew install --cask onedrive
+brew install --cask iterm2
+brew install --cask alfred
+brew install --cask google-chrome
+brew install --cask local
+brew install --cask 1password
+brew install --cask whatsapp
 brew install --cask visual-studio-code
 brew install --cask plex-media-server
 brew install --cask camtasia
@@ -64,7 +35,9 @@ brew install --cask dropbox
 brew install --cask a-better-finder-rename
 brew install --cask imageoptim
 brew install --cask launchpad-manager
-brew install --cask mounty #NTFS for Mac
+brew install --cask funter
+brew install --cask keka
+# brew install --cask mounty #NTFS for Mac
 echo
 echo
 echo
@@ -85,6 +58,7 @@ mas install 1289583905  #Pixelmator Pro
 mas install 410968114   #PDF Scanner
 mas install 1437809329  #SurfShark VPN
 mas install 411643860   #DaisyDisk
+mas install 937984704   #Amphetamine
 echo
 echo
 echo
@@ -108,27 +82,14 @@ echo
 
 
 
-echo "###########  Downloading SETAPP "
-sleep 3s
-echo
-curl  -o "/Users/eduardo/Downloads/InstallSetapp.zip" "https://dl.devmate.com/com.setapp.InstallSetapp/InstallSetapp.zip" 
-echo
-echo
-echo
-echo
-echo 
-echo
-
-
-
-
-
 echo "###########  Configuring .zshrc file!"
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 
-echo "####### CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO #######" >> ~/.zshrc
+
+echo "####### CONFIG MADE BY INSTALLATION SCRIPT OF CARREIRO #######" >> ~/.zshrc
+echo " " >> ~/.zshrc
 
 echo "alias lsa=\"ls -la -Gh\"" >> ~/.zshrc
 echo "alias cd..=\"cd ..\"" >> ~/.zshrc
@@ -180,61 +141,44 @@ echo
 
 
 
-echo "TO DO: SETAPP software are downloaded in Downloads folder."
-echo "Just INSTALL!"
-echo "Affinity Suite must be download separated."
-echo "OH-MY-ZSH and PowerLevel10k Will be installed next. Wait!"
-sleep 6s
-echo
-echo
-echo
-echo
-echo
-echo
-echo
 
 
+echo"###########  Configuring SSH Keys for GITHUB! "
 
-echo "########### Installing OH-MY-ZSH "
-sleep 5s
-echo
-echo "After install, paste the clipboard inside OH-MY-ZSH shell to install POWERLEVEL10K. "
-echo "After installation of PowerLevel10K, * QUIT * OH-MY-ZSH"
-pbcopy < ~/Projects/NewMac/p10kinstall.txt
-sleep 8s
-echo
-echo
-echo
-echo
-
-
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-echo
-echo
-echo
-
-echo "# ZSH_THEME=powerlevel10k/powerlevel10k   # Replace this line in the beginnging of this file" >> ~/.zshrc
-echo
-echo
-
-
-echo "FINISH. Next don't forget to replace ZHS_THEME for POWERLEVEL10k in .zshrc file"
-echo "The line is alredy added in the file but must be replaced for the default configuration."
-echo "########### VSCode will be open to replace ZSH Theme in .zshrc FILE" 
-sleep 8s
-echo
-code ~/.zshrc
-echo
-echo
-echo
-echo
-echo
 git config --global user.name "Eduardo Carreiro"
 git config --global user.email "carreiro@wpcwebdesign.com"
 echo
 echo
+echo
+echo
+echo
 
-
-
-
+ssh-keygen -t ed25519 -C "carreiro@wpcwebdesign.com"
+echo
+echo
+echo
+echo
+eval "$(ssh-agent -s)"
+echo
+echo
+echo
+echo
+echo "Host *" >> ~/.ssh/config
+echo "  AddKeysToAgent yes" >> ~/.ssh/config
+echo "  IdentityFile ~/.ssh/id_ed25519" >> ~/.ssh/config
+echo
+echo
+echo
+echo
+ssh-add ~/.ssh/id_ed25519
+echo
+echo
+echo
+echo
+echo
+pbcopy < ~/.ssh/id_ed25519.pub
+echo "######### FINISHED"
+echo
+echo "######### Paste Clipboard Content to GitHub SSH key"
+echo "######### and install SETAPP and Affinity Apps "
 
