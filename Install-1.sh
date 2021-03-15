@@ -36,7 +36,10 @@ brew install --cask a-better-finder-rename
 brew install --cask imageoptim
 brew install --cask launchpad-manager
 brew install --cask funter
+brew install --cask notion
+brew install --cask figma
 brew install --cask keka
+
 # brew install --cask mounty #NTFS for Mac
 echo
 echo
