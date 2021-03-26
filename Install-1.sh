@@ -22,11 +22,10 @@ brew install --cask onedrive
 brew install --cask iterm2
 brew install --cask alfred
 brew install --cask google-chrome
-brew install --cask local
-brew install --cask 1password
+# brew install --cask local
 brew install --cask whatsapp
 brew install --cask visual-studio-code
-brew install --cask plex-media-server
+# brew install --cask plex-media-server
 brew install --cask camtasia
 brew install --cask mkvtoolnix
 brew install --cask aegisub
@@ -55,7 +54,7 @@ echo
 mas install 510620098   #MediaInfo
 mas install 417375580   #BetterSnapTool
 mas install 946399090   #Telegram Desktop
-mas install 1489591003  #Edison Mail
+mas install 918858936   #Airmail Mail
 mas install 463362050   #PhotoSwepper
 mas install 1289583905  #Pixelmator Pro
 mas install 410968114   #PDF Scanner
