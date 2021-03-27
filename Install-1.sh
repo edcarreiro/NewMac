@@ -11,7 +11,7 @@ echo
 
 
 
-echo"###########  Installing Brew Cask APPS! "
+echo "###########  Installing Brew Cask APPS! "
 sleep 3s
 echo
 echo
@@ -47,7 +47,7 @@ echo
 echo
 
 
-echo"###########  Installing Mac Apple Store APPS! "
+echo "###########  Installing Mac Apple Store APPS! "
 sleep 3s
 echo
 mas install 510620098   #MediaInfo
@@ -69,7 +69,7 @@ echo
 
 
 
-echo"###########  Cleaning Up! "
+echo "###########  Cleaning Up! "
 sleep 3s
 echo
 brew cleanup -v
@@ -144,7 +144,7 @@ echo
 
 
 
-echo"###########  Configuring SSH Keys for GITHUB! "
+echo "###########  Configuring SSH Keys for GITHUB! "
 
 git config --global user.name "Eduardo Carreiro"
 git config --global user.email "carreiro@wpcwebdesign.com"
