@@ -2,7 +2,6 @@ echo "###########  Installing Homebrew and MAS! "
 sleep 3s
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install mas
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 echo
 echo
 echo
@@ -22,7 +21,7 @@ brew install --cask onedrive
 brew install --cask iterm2
 brew install --cask alfred
 brew install --cask google-chrome
-# brew install --cask local
+brew install --cask local
 brew install --cask whatsapp
 brew install --cask visual-studio-code
 # brew install --cask plex-media-server
