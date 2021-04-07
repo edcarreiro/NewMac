@@ -108,13 +108,9 @@ echo " " >> ~/.zshrc
 echo "function delds {" >> ~/.zshrc
 echo "  rm -r -f ~/Movies/TV" >> ~/.zshrc
 echo "  find . -name '.DS_Store' -type f -delete" >> ~/.zshrc
-echo "  find . -name '.localized' -type f -delete" >> ~/.zshrc
 echo "  rm -r -f ~/Music/Music/" >> ~/.zshrc
 echo "  brew cleanup -v" >> ~/.zshrc
 echo "  brew cleanup cask -v" >> ~/.zshrc
-echo "  find . -size 0" >> ~/.zshrc
-echo "  find ./ -type f -size 0" >> ~/.zshrc
-echo "  find . -type f -size 0 -exec rm -f '{}' +" >> ~/.zshrc
 echo "}" >> ~/.zshrc
 
 
@@ -131,7 +127,6 @@ echo "}" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 
-
 echo "### END OF CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO ###" >> ~/.zshrc
 echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
@@ -142,9 +137,6 @@ echo
 echo
 echo
 echo
-
-
-
 
 
 echo "###########  Configuring SSH Keys for GITHUB! "
