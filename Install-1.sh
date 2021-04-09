@@ -38,6 +38,7 @@ brew install --cask alfred
 
 brew install --cask launchpad-manager
 brew install --cask funter
+brew install --cask keka
 # brew install --cask plex-media-server
 
 # brew install --cask mounty #NTFS for Mac
