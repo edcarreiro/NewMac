@@ -17,18 +17,22 @@ echo
 echo
 brew install --cask microsoft-word
 brew install --cask microsoft-excel
+brew install --cask microsoft-powerpoint
+brew install --cask figma
 brew install --cask google-chrome
+brew install --cask cyberduck
 
 brew install --cask onedrive
 brew install --cask dropbox
 brew install --cask whatsapp
 brew install --cask a-better-finder-rename
-brew install --cask tyke
 
 brew install --cask iterm2
 
 brew install --cask local
+brew install --cask discord
 brew install --cask visual-studio-code
+brew install --cask handbrake
 brew install --cask camtasia
 brew install --cask mkvtoolnix
 brew install --cask aegisub
@@ -39,6 +43,10 @@ brew install --cask alfred
 brew install --cask launchpad-manager
 brew install --cask funter
 brew install --cask keka
+brew install --cask zoom
+brew install --cask anydesk
+brew install --cask keka
+brew install --cask kekaexternalhelper
 # brew install --cask plex-media-server
 
 # brew install --cask mounty #NTFS for Mac
@@ -64,6 +72,7 @@ mas install 1437809329  #SurfShark VPN
 mas install 411643860   #DaisyDisk
 mas install 937984704   #Amphetamine
 mas install 585829637   #Todoist
+mas install 1444383602  #GoodNotes
 echo
 echo
 echo
