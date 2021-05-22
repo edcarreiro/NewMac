@@ -158,7 +158,7 @@ echo
 echo
 echo
 echo
-ssh-keygen -t rsa -b 2048 -C "carreiro@wpcwebdesign.com"
+ssh-keygen -t rsa -b 4096 -C "carreiro@wpcwebdesign.com"
 #ssh-keygen -t ed25519 
 echo
 echo
@@ -171,7 +171,7 @@ echo
 echo
 echo "Host *" >> ~/.ssh/config
 echo "  AddKeysToAgent yes" >> ~/.ssh/config
-echo "  IdentityFile ~/.ssh/id_ed25519" >> ~/.ssh/config
+echo "  IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
 echo
 echo
 echo
