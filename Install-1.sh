@@ -25,6 +25,7 @@ brew install --cask cyberduck
 brew install --cask onedrive
 brew install --cask dropbox
 brew install --cask whatsapp
+brew install --cask alfred
 brew install --cask a-better-finder-rename
 
 brew install --cask iterm2
@@ -33,20 +34,19 @@ brew install --cask local
 brew install --cask discord
 brew install --cask visual-studio-code
 brew install --cask handbrake
-brew install --cask camtasia
+#brew install --cask camtasia
 brew install --cask mkvtoolnix
-brew install --cask aegisub
+#brew install --cask aegisub
 brew install --cask vlc
 brew install --cask imageoptim
-brew install --cask alfred
+brew install --cask signal
 
 brew install --cask launchpad-manager
 brew install --cask funter
 brew install --cask keka
+brew install --cask kekaexternalhelper
 brew install --cask zoom
 brew install --cask anydesk
-brew install --cask keka
-brew install --cask kekaexternalhelper
 # brew install --cask plex-media-server
 
 # brew install --cask mounty #NTFS for Mac
@@ -62,16 +62,16 @@ echo "###########  Installing Mac Apple Store APPS! "
 sleep 3s
 echo
 mas install 510620098   #MediaInfo
-mas install 417375580   #BetterSnapTool
+#mas install 417375580   #BetterSnapTool
 mas install 946399090   #Telegram Desktop
 mas install 918858936   #Airmail Mail
 mas install 463362050   #PhotoSwepper
 mas install 1289583905  #Pixelmator Pro
-mas install 410968114   #PDF Scanner
+#mas install 410968114   #PDF Scanner
 mas install 1437809329  #SurfShark VPN
 mas install 411643860   #DaisyDisk
-mas install 937984704   #Amphetamine
-mas install 585829637   #Todoist
+#mas install 937984704   #Amphetamine
+#mas install 585829637   #Todoist
 mas install 1444383602  #GoodNotes
 echo
 echo
@@ -158,8 +158,8 @@ echo
 echo
 echo
 echo
-
-ssh-keygen -t ed25519 -C "carreiro@wpcwebdesign.com"
+ssh-keygen -t rsa -b 2048 -C "carreiro@wpcwebdesign.com"
+#ssh-keygen -t ed25519 
 echo
 echo
 echo
@@ -176,13 +176,13 @@ echo
 echo
 echo
 echo
-ssh-add ~/.ssh/id_ed25519
+ssh-add ~/.ssh/id_rsa
 echo
 echo
 echo
 echo
 echo
-pbcopy < ~/.ssh/id_ed25519.pub
+pbcopy < ~/.ssh/id_rsa.pub
 echo "######### FINISHED"
 echo
 echo "######### Paste Clipboard Content to GitHub SSH key"
