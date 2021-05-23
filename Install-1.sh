@@ -129,13 +129,13 @@ echo " " >> ~/.zshrc
 echo " " >> ~/.zshrc
 
 
-echo "#### Function to correct date/time in video files ####" >> ~/.zshrc
-echo " " >> ~/.zshrc
-echo "function exm" >> ~/.zshrc
-echo "  exiftool $1 \"-time:all=$2-03:00\"" >> ~/.zshrc
-echo "}" >> ~/.zshrc
-echo " " >> ~/.zshrc
-echo " " >> ~/.zshrc
+# echo "#### Function to correct date/time in video files ####" >> ~/.zshrc
+# echo " " >> ~/.zshrc
+# echo "function exm {" >> ~/.zshrc
+# echo "  exiftool $1 \"-time:all=$2-03:00\"" >> ~/.zshrc
+# echo "}" >> ~/.zshrc
+# echo " " >> ~/.zshrc
+# echo " " >> ~/.zshrc
 
 echo "### END OF CONFIG MADE BY INSTALLATION SCRIPT BY CARREIRO ###" >> ~/.zshrc
 echo " " >> ~/.zshrc
