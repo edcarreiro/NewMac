@@ -148,6 +148,28 @@ echo
 echo
 echo
 
+echo "###########  Adding space in Mac Dock!"
+sleep 10s
+echo
+echo
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
+echo
+echo
+echo
+echo
+echo "###########  Enabling QUIT option to Finder!"
+sleep 10s
+echo
+echo
+defaults write com.apple.finder QuitMenuItem -bool true; killall Finder
+echo
+echo
+echo
+echo
+echo
+
+
+
 
 echo "###########  Configuring SSH Keys for GITHUB! "
 
