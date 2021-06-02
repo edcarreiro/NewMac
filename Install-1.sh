@@ -175,6 +175,7 @@ echo "###########  Configuring SSH Keys for GITHUB! "
 
 git config --global user.name "Eduardo Carreiro"
 git config --global user.email "carreiro@wpcwebdesign.com"
+git config --global core.editor "code --wait"
 echo
 echo
 echo
