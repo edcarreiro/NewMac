@@ -209,6 +209,13 @@ echo
 pbcopy < ~/.ssh/id_rsa.pub
 echo "######### FINISHED"
 echo
+# Increase the frequency of Chrome check updates
+defaults write com.google.Keystone.Agent checkInterval 604800  
+echo
+echo
+echo
+echo
+echo
 echo "######### Paste Clipboard Content to GitHub SSH key"
 echo "######### and install SETAPP and Affinity Apps "
 
